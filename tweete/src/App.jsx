@@ -3,10 +3,12 @@ import Post from "./components/Post";
 function App() {
 
   return (
-    <>
-     <center> <h1>Hello World</h1> </center>
-      <Post />
-    </>
+    <main>  
+      <center> 
+      <Post author="Master" body="Adnan is awsome" />
+      <Post author="Saif" body="my master is awsome" />
+      </center> 
+    </main>
   )
 }
 
